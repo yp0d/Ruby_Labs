@@ -19,6 +19,6 @@ RSpec.describe "Main" do
 
   it "#second_task second_solution" do
     allow_any_instance_of(Kernel).to receive(:gets).and_return(20, 30)
-    expect(foobar).to eq(20)
+    expect(foobar).to eq(30)
   end
 end

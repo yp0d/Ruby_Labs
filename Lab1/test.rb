@@ -18,9 +18,10 @@ def foobar
   a=gets.to_i
   b=gets.to_i
   if (a==CONST_C) || (b==CONST_C)
-    20
+    p b
   else
     a+b
   end
 end
 greeting
+foobar
